@@ -33,6 +33,7 @@ public class CronDeserializer extends StdDeserializer<Cron> {
     private static final long serialVersionUID = 510l;
     private static Logger logger = LoggerFactory.getLogger(CronDeserializer.class);
 
+    @SuppressWarnings("unused")
     private WorkflowPropertySource context;
 
     public CronDeserializer() {
